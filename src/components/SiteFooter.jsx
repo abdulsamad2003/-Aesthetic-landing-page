@@ -33,9 +33,9 @@ export default function SiteFooter() {
             data-testid="site-footer"
             className="relative bg-cream border-t hairline px-6 md:px-12 lg:px-24 pt-20 pb-12"
         >
-            <div className="grid grid-cols-12 gap-8 md:gap-12 pb-16">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 pb-16">
                 {/* Brand and dynamic clock */}
-                <div className="col-span-12 lg:col-span-4">
+                <div className="col-span-1 lg:col-span-4">
                     <a
                         href="#top"
                         onClick={scrollToTop}
@@ -59,7 +59,7 @@ export default function SiteFooter() {
                 </div>
 
                 {/* Navigation Columns */}
-                <div className="col-span-6 md:col-span-3 lg:col-span-2 lg:col-start-6">
+                <div className="col-span-1 lg:col-span-2 lg:col-start-6">
                     <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-stone-muted block mb-6">
                         / Platform
                     </span>
@@ -87,7 +87,7 @@ export default function SiteFooter() {
                     </ul>
                 </div>
 
-                <div className="col-span-6 md:col-span-3 lg:col-span-2">
+                <div className="col-span-1 lg:col-span-2">
                     <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-stone-muted block mb-6">
                         / Studio
                     </span>
@@ -111,7 +111,7 @@ export default function SiteFooter() {
                 </div>
 
                 {/* Newsletter Subscription */}
-                <div className="col-span-12 md:col-span-6 lg:col-span-3">
+                <div className="col-span-1 sm:col-span-2 lg:col-span-3">
                     <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-stone-muted block mb-6">
                         / Inquiries
                     </span>

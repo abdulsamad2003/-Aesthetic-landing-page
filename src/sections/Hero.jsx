@@ -40,7 +40,7 @@ export default function Hero() {
                 <div className="col-span-12 lg:col-span-7">
                     <span
                         data-testid="hero-eyebrow"
-                        className="inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.3em] text-stone-muted border hairline px-3 py-1"
+                        className="inline-flex items-center gap-2 font-mono text-[9px] sm:text-[11px] uppercase tracking-[0.15em] sm:tracking-[0.3em] text-stone-muted border hairline px-2.5 sm:px-3 py-1"
                     >
                         <Sparkles size={12} className="text-accent-rust" />
                         Art Direction & Front-end Craft
@@ -129,8 +129,8 @@ export default function Hero() {
                         </div>
 
                         {/* Center Specimen Artwork & Graphic */}
-                        <div className="relative my-4 flex-1 grid grid-cols-12 gap-4 items-center">
-                            <div className="col-span-7 h-full border hairline bg-stone-ink/5 p-1 relative overflow-hidden">
+                        <div className="relative my-4 flex-1 grid grid-cols-12 gap-4 items-stretch lg:items-center">
+                            <div className="col-span-12 lg:col-span-7 h-48 lg:h-full border hairline bg-stone-ink/5 p-1 relative overflow-hidden">
                                 <img
                                     src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800"
                                     alt="Minimalist Design Specimen"
@@ -140,8 +140,8 @@ export default function Hero() {
                                     Plate 01 // Identity
                                 </span>
                             </div>
-                            <div className="col-span-5 flex flex-col gap-3 justify-center">
-                                <div className="border hairline p-3 bg-[#fafafa]">
+                            <div className="col-span-12 lg:col-span-5 flex flex-row lg:flex-col gap-3 justify-center">
+                                <div className="border hairline p-3 bg-[#fafafa] flex-1">
                                     <span className="block font-mono text-[8px] uppercase tracking-[0.2em] text-stone-muted">
                                         Type Hierarchy
                                     </span>
@@ -152,7 +152,7 @@ export default function Hero() {
                                         Playfair Display
                                     </span>
                                 </div>
-                                <div className="border hairline p-3 bg-[#fafafa]">
+                                <div className="border hairline p-3 bg-[#fafafa] flex-1">
                                     <span className="block font-mono text-[8px] uppercase tracking-[0.2em] text-stone-muted">
                                         Layout System
                                     </span>
